@@ -130,7 +130,7 @@ resource "aws_instance" "dev_server_1" {
                 sudo yum install httpd -y 
                 sudo systemctl enable httpd
                 sudo systemctl start httpd
-                sudo bash -c "echo Very First Terraform Practice Project > /var/www/html/index.html"
+                sudo bash -c "echo Just saying Hi to the World!!! > /var/www/html/index.html"
                 EOF 
 
 
